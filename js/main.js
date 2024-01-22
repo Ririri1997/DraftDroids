@@ -45,27 +45,6 @@ menuItems.forEach((item) => {
   });
 });
 
-// автовоспроизведение видео с ios 
-
-document.addEventListener('DOMContentLoaded', function () {
-  const videos = document.querySelectorAll('video');
-
-  videos.forEach(function(video) {
-    video.addEventListener('loadedmetadata', function() {
-      // Попытка воспроизвести видео при загрузке метаданных
-      var promise = video.play();
-
-      if (promise !== undefined) {
-        promise.catch(error => {
-          // Ошибка автовоспроизведения. Возможно, из-за политики пользовательского ввода
-          console.error('Autoplay error:', error);
-          // В этом случае, предоставьте пользователю элемент управления для запуска видео
-        });
-      }
-    });
-  });
-
-});
 
 // удаление атрибута задержки анимации на размерах экрана меньше 680
 
