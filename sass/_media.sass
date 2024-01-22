@@ -1,0 +1,112 @@
+@media (max-width: 1024px)
+ .grid-wrapper__two
+  grid-template-columns: repeat(1, 1fr)
+ .header 
+  .nav
+   &-list
+    display: none
+    width: 100vw
+    height: 100svh
+    left: 0
+    bottom: 0
+    right: 0
+    top: 0
+    position: fixed
+    background: linear-gradient(87deg, #4D848E 0%, #374D7F 100%), #1B0E2B
+    padding: 0 16px 
+    justify-content: center
+    flex-direction: column
+    .nav-item
+     display: block
+     margin-bottom: 24px
+     margin-right: 0
+     &:last-child
+      margin-bottom: 0
+  .link-nav
+     font-size: 46px
+  .menu
+   display: flex
+   width: 44px
+   height: 44px
+   border-radius: 50%
+   background-position: center
+   border: none
+   cursor: pointer 
+   background-size: 100% 100% 
+   z-index: 10
+   &-burger
+    background-image: url(../img/burger.svg) 
+   &-close
+    background-image: url(../img/close.svg) 
+   &-open 
+    display: flex
+ .button 
+  width: 100%
+ .main
+  height: auto
+  padding-top: 120px
+  &-video 
+   order: -1
+ .about
+  &-contract
+   p 
+    text-align: left
+ .token-cards 
+   grid-template-columns: repeat(2, 1fr)
+@media (max-width: 768px)
+ .grid-wrapper__two
+  gap: 32px
+ section
+  margin-bottom: 120px
+ .container
+  padding: 0 16px
+  width: 100%
+ h1
+  font-size: 48px
+  line-height: 95%
+ h2 
+  font-size: 44px
+  margin-bottom: 50px
+  line-height: 110%
+  text-align: left
+ h3, .title
+  font-size: 20px
+  text-align: left
+ p
+  font-size: 16px
+  text-align: left
+ .link
+  font-size: 16px
+ .header-logo 
+  width: 82px
+ .main
+  &-logo
+   margin-bottom: 50px
+ .card 
+  padding: 24px 20px
+ .token
+  &-wrapper
+   gap: 30px
+  &-contract
+   margin-bottom: 30px
+  &-video
+   video
+    width: 100%
+    height: auto
+ .footer 
+  &-logo
+   margin-bottom: 50px
+  .nav
+   &-list
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-bottom: 120px
+   &-item
+    margin: 0
+    margin-bottom: 16px
+    &:last-child
+     margin-bottom: 0
+
+
+ 

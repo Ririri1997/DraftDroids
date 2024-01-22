@@ -1,0 +1,44 @@
+.header
+ position: fixed
+ top: 0
+ left: 0
+ right: 0
+ width: 100%
+ z-index: 100
+ padding-top: 20px
+ &-wrapper
+  display: flex
+  align-items: center
+  justify-content: space-between
+  height: 100%
+  width: 100%
+ &-logo
+  width: 100px
+ .container 
+  height: 100%
+.nav
+ &-list
+  list-style-type: none
+  margin: 0
+  padding: 0
+  display: flex
+ &-item 
+  margin-right: 32px
+  &:last-child
+   margin-right: 0
+  .link-nav
+   color: #CDE7F1
+   text-align: center
+   font-feature-settings: 'clig' off, 'liga' off
+   font-family: 'Black Ops One', system-ui
+   font-size: 24px
+   font-style: normal
+   font-weight: 400
+   line-height: 130%
+   text-transform: uppercase
+   text-decoration: none
+   &:hover 
+    transition: 250ms
+    color: #FFF10F
+.menu
+ display: none

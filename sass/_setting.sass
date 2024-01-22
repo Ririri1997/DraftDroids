@@ -1,0 +1,151 @@
+*
+ box-sizing: border-box
+
+body 
+ font-family: 'Inter', sans-serif
+ color: #FEF7DB
+
+.bg
+ background: url(../img/bg-main.webp) no-repeat top center #070911
+ background-attachment: fixed
+ background-size: cover 
+ height: 100%
+ width: 100%    
+ position: fixed
+ z-index: -1
+ -webkit-background-size: cover
+ -o-background-size: cover
+ -moz-background-size: cover
+ transform: translate3d(0, 0, 0)
+ &-ios
+  height: 100svh
+  width: 100%    
+  background-color: transparent
+  z-index: -1
+  position: fixed
+
+.promo
+ height: 100svh
+ width: 100%
+ border-radius: 40px
+ overflow: hidden
+ video
+  width: 100%
+  height: 100%
+  object-fit: cover
+
+.container 
+ max-width: 1218px
+ margin: auto
+ width: 90%
+ 
+.grid-wrapper__two
+ display: grid
+ grid-template-columns: repeat(2, 1fr)
+ width: 100%
+ gap: 50px
+
+section 
+ margin-bottom: 150px
+
+h1
+ font-feature-settings: 'clig' off, 'liga' off
+ font-family: 'Black Ops One', system-ui
+ font-size: 68px
+ font-style: normal
+ font-weight: 400
+ line-height: 95%
+ text-transform: uppercase
+ margin: 0
+ padding: 0
+ background-image: linear-gradient(88deg, #B1F2FB 1.01%, #FDD3DE 94.13%)
+ -webkit-background-clip: text
+ -webkit-text-fill-color: transparent
+ margin-bottom: 20px
+
+h2 
+ text-align: center
+ font-family: 'Black Ops One', system-ui
+ font-feature-settings: 'clig' off, 'liga' off
+ font-size: 60px
+ font-style: normal
+ font-weight: 400
+ line-height: 110%
+ text-transform: uppercase
+ margin: 0
+ padding: 0
+ background-image: linear-gradient(88deg, #B1F2FB 1.01%, #FDD3DE 94.13%)
+ -webkit-background-clip: text
+ -webkit-text-fill-color: transparent
+ margin-bottom: 70px
+
+h3, .title
+ font-feature-settings: 'clig' off, 'liga' off
+ font-family: 'Black Ops One', system-ui
+ font-size: 32px
+ font-style: normal
+ font-weight: 400
+ line-height: 130%
+ text-transform: uppercase
+ background-image: linear-gradient(88deg, #B1F2FB 1.01%, #FDD3DE 94.13%)
+ -webkit-background-clip: text
+ -webkit-text-fill-color: transparent
+ margin: 0
+ padding: 0
+ margin-bottom: 8px
+
+p
+ font-family: 'Josefin Sans', sans-serif
+ color: #FFF
+ font-feature-settings: 'clig' off, 'liga' off
+ font-size: 20px
+ font-style: normal
+ font-weight: 500
+ line-height: 130%
+ margin: 0
+ padding: 0
+
+.link
+ color: #FFF10F
+ font-feature-settings: 'clig' off, 'liga' off
+ font-family: "Josefin Sans"
+ font-size: 20px
+ font-style: normal
+ font-weight: 500
+ line-height: 130%
+ text-decoration-line: underline
+ 
+.button
+ display: flex
+ padding: 12px 32px
+ justify-content: center
+ align-items: center
+ text-decoration: none
+ color: #cde7f1
+ border-radius: 12px
+ background: linear-gradient(87deg, #F03395 0%, #82A6F7 100%)
+ font-feature-settings: 'clig' off, 'liga' off
+ font-family: 'Black Ops One', system-ui
+ font-size: 24px
+ font-style: normal
+ font-weight: 400
+ line-height: 110%
+ text-transform: uppercase
+ &:hover
+  background: linear-gradient(87deg, #82A6F7 0%, #F03395 100%)
+  transition: 250ms
+
+.card
+ padding: 24px 20px
+ border-radius: 20px
+ background: linear-gradient(87deg, #F03395 0%, #82A6F7 100%)
+ text-align: center
+ p
+  text-align: center
+
+ 
+
+
+
+.no-scroll
+ overflow: hidden
